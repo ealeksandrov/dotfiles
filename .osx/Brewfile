@@ -18,12 +18,10 @@ install findutils
 install gnu-sed --default-names
 # Install Bash 4
 install bash
-install bash_completion
+install bash-completion
 
 install git
 install hg
-
-
 
 install python
 
