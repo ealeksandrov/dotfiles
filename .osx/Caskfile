@@ -1,0 +1,32 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+cask install dropbox 2> /dev/null
+cask install textmate 2> /dev/null
+cask install google-chrome 2> /dev/null
+cask install imagealpha 2> /dev/null
+cask install imageoptim 2> /dev/null
+cask install iterm2 2> /dev/null
+cask install miro-video-converter 2> /dev/null
+cask install tor-browser 2> /dev/null
+cask install vlc 2> /dev/null
+cask install nvalt 2> /dev/null
+cask install ifunbox 2> /dev/null
+cask install transmission-remote-gui 2> /dev/null
+cask install skype 2> /dev/null
+cask install alfred 2> /dev/null
+cask install slate 2> /dev/null
+cask install simpholders 2> /dev/null
+
+cask install qlstephen 2> /dev/null
+cask install qlmarkdown 2> /dev/null
+cask install quicklook-json 2> /dev/null
+cask install qlprettypatch 2> /dev/null
+cask install quicklook-csv 2> /dev/null
+cask install betterzipql 2> /dev/null
+cask install webp-quicklook 2> /dev/null
+cask install suspicious-package 2> /dev/null
+cask install provisionql 2> /dev/null

@@ -1,0 +1,11 @@
+# main entry point for dotfiles
+
+so() { [ -s $1 ] && source $1; }
+
+so ~/.bash/git                            #
+so ~/.bash/profile                        # main configuration
+so ~/.bash/prompt                         # 
+so ~/.bash/aliases                        # 
+so ~/.bash/dotfilesrc                     # git-dotfiles specific stuff
+
+[ -d ~/bin ] && export PATH=~/bin:$PATH # users' ~/bin/ takes precedence
