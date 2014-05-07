@@ -1,0 +1,40 @@
+#
+# Environment
+#
+
+export EDITOR="/usr/local/bin/mate -w"
+export LESS="--RAW-CONTROL-CHARS --ignore-case"  # colored, same as -R
+export PAGER='less'
+
+# common BSD/GNU
+export _MANPAGER='col -bx | view - -c ":set ls=0 ft=man nomod nolist nonu noma" -c ":nmap q :q<CR>"'
+export MANPAGER="/bin/bash -c '$_MANPAGER'"
+
+export ENV_NAME=$(uname -s|tr 'A-Z' 'a-z')
+#
+# Terminal
+# 
+stty -ixon # disable XON/XOFF flow control
+           # terminal wont treat ^s as flow control character
+           # and ^s now can be used as shortcut
+
+#
+# Completion
+#
+[ -f /etc/bash_completion ] && source /etc/bash_completion
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
+#
+# History
+#
+shopt -s histappend                         # Append each(!) history entry from all terminals realtime(not after sesion ending)
+shopt -s cmdhist                            # store multiline commands as 1 line
+shopt -s cdspell                            # spelling error correction 
+shopt -s checkwinsize                       # check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
+export HISTCONTROL="ignoredups"             # ignore duplicates(store command once)
+export HISTCONTROL="ignoreboth"
+export HISTIGNORE="&:ls:[bf]g:exit:%[0-9]"  # ignore simple commands
+export HISTFILESIZE=5000                    # history file size
