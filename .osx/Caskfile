@@ -17,8 +17,6 @@ cask install nvalt 2> /dev/null
 cask install ifunbox 2> /dev/null
 cask install transmission-remote-gui 2> /dev/null
 cask install skype 2> /dev/null
-cask install alfred 2> /dev/null
-cask install slate 2> /dev/null
 cask install simpholders 2> /dev/null
 
 cask install qlstephen 2> /dev/null
