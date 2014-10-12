@@ -2,7 +2,7 @@
 # Environment
 #
 
-export EDITOR="/usr/local/bin/mate -w"
+export EDITOR="/usr/local/bin/atom"
 export LESS="--RAW-CONTROL-CHARS --ignore-case"  # colored, same as -R
 export PAGER='less'
 
