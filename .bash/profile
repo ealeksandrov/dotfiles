@@ -2,9 +2,19 @@
 # Environment
 #
 
+pathadd() {
+    if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
+        PATH="${PATH:+"$PATH:"}$1"
+    fi
+}
+
 export EDITOR="/usr/local/bin/atom"
 export LESS="--RAW-CONTROL-CHARS --ignore-case"  # colored, same as -R
 export PAGER='less'
+
+# rvm stuff
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+pathadd("$HOME/.rvm/bin");
 
 # common BSD/GNU
 export _MANPAGER='col -bx | view - -c ":set ls=0 ft=man nomod nolist nonu noma" -c ":nmap q :q<CR>"'
