@@ -1,23 +1,12 @@
-TAGS
-tags
-
 #OS noise
 profile
 [Tt]humbs.db
 *.DS_Store
-__MACOSX/*
-Desktop.ini
-._*
 *~
 *.swp
 *.out
 *.bak*
 *.lock
-*.local
-
-# Files that might appear on external disks
-.Spotlight-V100
-.Trashes
 
 #Other CSM
 .hg
@@ -37,24 +26,3 @@ CVS
 #Project files
 [Bb]uild/
 DerivedData/
-
-#IntelliJ IDEA
-*.iml
-*.ipr
-*.iws
-
-#Eclipse / Java
-*.class
-target
-.metadata
-.cache
-.worksheet
-*.class
-target/
-
-# Compiled Python files
-*.pyc
-
-#Ruby
-.generators
-.rakeTasks
