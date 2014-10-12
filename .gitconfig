@@ -80,6 +80,7 @@
 
   # Reset
   rst   = reset
+  rh   = reset --hard HEAD
   # reset to @{upstream} with confirmation
   roh   = "! git --no-pager ll -10 @{upstream} && read -p '^C to stop, anykey to continue' Z && git rst --hard @{upstream}"
 
