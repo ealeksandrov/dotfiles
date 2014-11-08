@@ -16,8 +16,6 @@ install moreutils
 install findutils
 # Install GNU `sed`, overwriting the built-in `sed`
 install gnu-sed --default-names
-# Install Bash 4
-install bash
 install bash-completion
 
 install git
@@ -36,9 +34,9 @@ install narwhal
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
 install homebrew/dupes/grep
-install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
+install objc-run
 install mogenerator
 install imagemagick --with-webp
 install lynx
@@ -54,8 +52,6 @@ install sqlmap
 install tree
 install webkit2png
 install zopfli
-
-install homebrew/versions/lua52
 
 # Remove outdated versions from the cellar
 cleanup
