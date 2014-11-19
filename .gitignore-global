@@ -6,7 +6,6 @@ profile
 *.swp
 *.out
 *.bak*
-*.lock
 
 #Other CSM
 .hg
