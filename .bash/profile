@@ -8,7 +8,7 @@ pathadd() {
     fi
 }
 
-export EDITOR="/usr/local/bin/atom"
+export EDITOR="/usr/local/bin/mate -w"
 export LESS="--RAW-CONTROL-CHARS --ignore-case"  # colored, same as -R
 export PAGER='less'
 
