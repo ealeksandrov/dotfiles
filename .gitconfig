@@ -110,6 +110,8 @@
   catchup = log --patch --reverse --topo-order _ribbon..origin/master
 
   scrum = "!git ll --since='yesterday' --author=\"`git config user.name`\""
+  
+  show-rev-number = !sh -c 'git rev-list --reverse HEAD | nl | awk \"{ if(\\$1 == "$0") { print \\$2 }}\"'
 
   #  ticket = "!f() { git checkout -b `echo $1|tr 'A-Z' 'a-z'` origin/master }; f "
   #
