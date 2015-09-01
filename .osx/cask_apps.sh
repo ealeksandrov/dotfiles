@@ -28,7 +28,8 @@ apps=(
   spectacle
   steam
   textmate
-  torbrowsertransmission-remote-gui
+  torbrowser
+  transmission-remote-gui
   vlc
 )
 
@@ -37,14 +38,14 @@ brew cask install --appdir="/Applications" ${apps[@]}
 
 qls=(
   betterzipql
-	provisionql
-	qlmarkdown
-	qlprettypatch
-	qlstephen
-	quicklook-csv
-	quicklook-json
-	suspicious-package
-	webp-quicklook
+  provisionql
+  qlmarkdown
+  qlprettypatch
+  qlstephen
+  quicklook-csv
+  quicklook-json
+  suspicious-package
+  webp-quicklook
 )
 
 echo "installing QuickLook plugins..."
