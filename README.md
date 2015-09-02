@@ -10,10 +10,22 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 # commit original files in orig branch for backup
 # WARNING: backup what's going to be overwritten
 .G status -s -uno   # review changelist
-.G checkout -b original_files 
+.G checkout -b original_files
 .G commit -a  -m 'original files'
-.G checkout master 
+.G checkout master
 ```
+
+## Clean system install
+
+* clone dotfiles
+* install Xcode
+* `xcode-select --install`
+* [homebrew](http://brew.sh)
+* [rvm](https://rvm.io)
+* .osx/brew_apps.sh
+* .osx/cask_apps.sh
+* .osx/osx
+* iTerm2 settings: [Esc+: b][Esc+: f] + [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
 
 ## Author
 
