@@ -3,7 +3,7 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 apps=(
-  alfred2	
+  alfred
   apns-pusher
   colorpicker-skalacolor
   diskwave
@@ -12,10 +12,8 @@ apps=(
   fabric
   firefox
   gitup
-  google-chrome
-  httpie
   imageoptim
-  iterm
+  iterm2
   itsycal
   kaleidoscope
   keepingyouawake
@@ -24,7 +22,6 @@ apps=(
   shortcat
   skitch
   skype
-  slack
   spectacle
   steam
   textmate
@@ -45,7 +42,7 @@ qls=(
   quicklook-csv
   quicklook-json
   suspicious-package
-  webp-quicklook
+  webpquicklook
 )
 
 echo "installing QuickLook plugins..."

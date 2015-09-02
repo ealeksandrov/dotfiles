@@ -14,6 +14,7 @@ apps=(
   freetype
   git
   git-extras
+  httpie
   imagemagick --with-webp
   jpeg
   libgpg-error
@@ -25,9 +26,7 @@ apps=(
   libxslt
   libyaml
   lynx
-  mackup
   python
-  mitmproxy
   mogenerator
   nmap
   node
