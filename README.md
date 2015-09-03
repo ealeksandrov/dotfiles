@@ -26,6 +26,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * .osx/cask_apps.sh
 * .osx/osx
 * iTerm2 settings: [Esc+: b][Esc+: f] + [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
+* Xcode plugins
 
 ## Author
 
