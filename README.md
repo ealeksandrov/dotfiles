@@ -27,6 +27,16 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * .osx/osx
 * iTerm2 settings: [Esc+: b][Esc+: f] + [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
 * Xcode plugins
+* Alfred
+  * [iTerm support](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
+  * about_this_mac
+  * audio_switch
+  * eggtimer_v2.0_final
+  * menu_bar_search
+  * Recent Downloads
+  * alfredwl
+  * units_v_0_6
+  * translate
 
 ## Author
 
