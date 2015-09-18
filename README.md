@@ -37,6 +37,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
   * alfredwl
   * units_v_0_6
   * translate
+  * alfredwl
 
 ## Author
 
