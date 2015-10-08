@@ -10,14 +10,12 @@ apps=(
   doxygen
   dropbox
   fabric
-  firefox
   gitup
   imageoptim
   iterm2
   itsycal
   kaleidoscope
   keepingyouawake
-  pixel-winch
   reveal
   shortcat
   skitch
