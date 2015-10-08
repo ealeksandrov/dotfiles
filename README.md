@@ -17,9 +17,12 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 
 ## Clean system install
 
-* clone dotfiles
+* Safari extensions
+  * [AdBlock Plus](https://adblockplus.org/safari)
+  * [NoMoreItunes](http://nomoreitunes.einserver.de)
 * install Xcode
 * `xcode-select --install`
+* clone dotfiles
 * [homebrew](http://brew.sh)
 * [rvm](https://rvm.io)
 * .osx/brew_apps.sh
