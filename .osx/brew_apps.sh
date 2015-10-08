@@ -1,5 +1,8 @@
 brew update
 
+brew tap homebrew/dupes
+brew tap caskroom/cask
+
 apps=(
   apple-gcc42
   autoconf
