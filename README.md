@@ -30,6 +30,16 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * .osx/osx
 * iTerm2 settings: [Esc+: b][Esc+: f] + [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
 * Xcode plugins
+  * [DerivedData Exterminator](https://github.com/kattrali/deriveddata-exterminator)
+  * [CATweaker](https://github.com/keefo/CATweaker)
+  * [FuzzyAutocomplete](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin)
+  * [GitDiff](https://github.com/johnno1962/GitDiff)
+  * [KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode)
+  * [ColorSenseRainbow](https://github.com/NorthernRealities/ColorSenseRainbow)
+  * [Polychromatic](https://github.com/kolinkrewinkel/Polychromatic)
+  * [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode)
+  * [XCActionBar](https://github.com/pdcgomes/XCActionBar)
+  * [You Can Do It!](https://github.com/orta/You-Can-Do-It)
 * Alfred
   * [iTerm support](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
   * about_this_mac
@@ -40,7 +50,6 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
   * alfredwl
   * units_v_0_6
   * translate
-  * alfredwl
 
 ## Author
 
