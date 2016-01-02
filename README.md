@@ -23,6 +23,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * install Xcode
 * `xcode-select --install`
 * clone dotfiles
+* `git config --global core.attributesfile $HOME/.gitattributes`
 * [homebrew](http://brew.sh)
 * [rvm](https://rvm.io)
 * .osx/brew_apps.sh
