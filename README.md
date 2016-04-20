@@ -33,7 +33,6 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * Xcode plugins
   * [DerivedData Exterminator](https://github.com/kattrali/deriveddata-exterminator)
   * [CATweaker](https://github.com/keefo/CATweaker)
-  * [FuzzyAutocomplete](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin)
   * [GitDiff](https://github.com/johnno1962/GitDiff)
   * [KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode)
   * [ColorSenseRainbow](https://github.com/NorthernRealities/ColorSenseRainbow)
@@ -60,7 +59,7 @@ Based on [gmarik/dotfiles](https://github.com/gmarik/dotfiles).
 
 ###  License
 
-Copyright (c) 2015 Evgeny Aleksandrov
+Copyright (c) 2015-2016 Evgeny Aleksandrov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
