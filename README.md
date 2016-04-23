@@ -40,6 +40,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
   * [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode)
   * [XCActionBar](https://github.com/pdcgomes/XCActionBar)
   * [You Can Do It!](https://github.com/orta/You-Can-Do-It)
+  * Show Xcode build time: `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
 * Alfred
   * [iTerm support](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
   * about_this_mac
