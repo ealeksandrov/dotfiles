@@ -56,7 +56,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 
 This example was created by Evgeny Aleksandrov ([@EAleksandrov](http://twitter.com/EAleksandrov)).
 
-Based on [gmarik/dotfiles](https://github.com/gmarik/dotfiles).
+Based on [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) and [gmarik/dotfiles](https://github.com/gmarik/dotfiles).
 
 ### License
 
