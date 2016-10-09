@@ -3,3 +3,4 @@
 
 # do not ignore: 
 !.bash/
+!.macos/
