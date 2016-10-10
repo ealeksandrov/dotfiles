@@ -1,6 +1,10 @@
-#OS noise
+# OS noise
+Desktop.ini
 [Tt]humbs.db
+.Spotlight-V100
 *.DS_Store
+.Trashes
+._*
 *~
 *.swp
 *.out
@@ -10,17 +14,3 @@
 .hg
 .svn
 CVS
-
-#Xcode noise
-*.log
-*~.nib
-*.moved-aside
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-*.xcworkspace/*
-!*.xcworkspace/contents.xcworkspacedata
-!xcshareddata
-
-#Project files
-[Bb]uild/
-DerivedData/
