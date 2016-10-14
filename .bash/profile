@@ -1,6 +1,4 @@
-#
-# Environment
-#
+#!/usr/bin/env bash
 
 export EDITOR="/usr/local/bin/mate -w"
 export LESS="--RAW-CONTROL-CHARS --ignore-case"  # colored, same as -R
@@ -22,6 +20,7 @@ export _MANPAGER='col -bx | view - -c ":set ls=0 ft=man nomod nolist nonu noma" 
 export MANPAGER="/bin/bash -c '$_MANPAGER'"
 
 export ENV_NAME=$(uname -s|tr 'A-Z' 'a-z')
+
 #
 # Terminal
 # 
@@ -29,14 +28,12 @@ stty -ixon # disable XON/XOFF flow control
            # terminal wont treat ^s as flow control character
            # and ^s now can be used as shortcut
 
-#
-# Completion
-#
-[ -f /etc/bash_completion ] && source /etc/bash_completion
-
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    . $(brew --prefix)/etc/bash_completion
-fi
+# Add tab completion for many Bash commands
+if which brew &> /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
+	source "$(brew --prefix)/share/bash-completion/bash_completion";
+elif [ -f /etc/bash_completion ]; then
+	source /etc/bash_completion;
+fi;
 
 #
 # History
