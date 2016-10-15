@@ -6,6 +6,5 @@ so ~/.bash/profile                        # main configuration
 so ~/.bash/prompt                         # 
 so ~/.bash/aliases                        #
 so ~/.bash/functions                      #
+so ~/.bash/path                           #
 so ~/.bash/dotfilesrc                     # git-dotfiles specific stuff
-
-[ -d ~/bin ] && export PATH=~/bin:$PATH # users' ~/bin/ takes precedence
