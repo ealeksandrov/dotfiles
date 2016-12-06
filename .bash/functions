@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # open xcode project & workspace (credits to @orta)
-openx(){
+openx() {
     if test -n "$(find . -maxdepth 1 -name '*.xcworkspace' -print -quit)"
     then
       echo "Opening workspace"

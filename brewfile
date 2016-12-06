@@ -1,0 +1,92 @@
+tap 'caskroom/cask'
+tap 'homebrew/versions'
+
+# Install GNU core utilities (those that come with macOS are outdated).
+brew 'coreutils'
+
+# Install some other useful utilities like `sponge`.
+brew 'moreutils'
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
+brew 'findutils'
+# Install GNU `sed`, overwriting the built-in `sed`.
+brew 'gnu-sed', args: ['with-default-names']
+
+# Install Bash 4.
+brew 'bash'
+brew 'bash-completion2'
+
+# Install `wget` with IRI support.
+brew 'wget', args: ['with-iri']
+
+# Install more recent versions of some macOS tools.
+brew 'vim', args: ['with-override-system-vi']
+brew 'homebrew/dupes/grep'
+brew 'homebrew/dupes/openssh'
+brew 'homebrew/dupes/screen'
+brew 'homebrew/php/php56', args: ['with-gmp']
+
+# Install other useful binaries.
+brew 'ack'
+brew 'git'
+brew 'git-lfs'
+brew 'httpie'
+brew 'imagemagick', args: ['with-webp']
+brew 'lua'
+brew 'lynx'
+brew 'mas'
+brew 'p7zip'
+brew 'pigz'
+brew 'pv'
+brew 'rename'
+brew 'rhino'
+brew 'speedtest_cli'
+brew 'ssh-copy-id'
+brew 'testssl'
+brew 'tree'
+brew 'vbindiff'
+brew 'webkit2png'
+brew 'zopfli'
+# Howto video->gif https://gist.github.com/dergachev/4627207
+brew 'gifsicle'
+
+# Quick Look plugins
+cask 'qlimagesize'
+cask 'provisionql'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'qlvideo'
+
+# macOS Applications
+cask 'alfred'
+cask 'dropbox'
+cask 'flux'
+cask 'gitup'
+cask 'google-chrome'
+cask 'handbrake'
+cask 'iterm2'
+cask 'itsycal'
+cask 'imageoptim'
+cask 'kaleidoscope'
+cask 'keepingyouawake'
+cask 'mac2imgur'
+cask 'opensim'
+cask 'spectacle'
+cask 'steam'
+cask 'textmate'
+cask 'transmission-remote-gui'
+cask 'visual-studio-code'
+cask 'vlc'
+
+# Mac App Store Applications
+mas 'Xcode', id: 497799835
+mas 'The Unarchiver', id: 425424353
+mas 'Twitter', id: 409789998
+mas '1Password', id: 443987910
+mas 'SomaFM', id: 449155338
+mas 'Slack', id: 803453959
+mas 'Wunderlist', id: 410628904
+mas 'Alternote', id: 974971992
+mas 'Reeder', id: 880001334
+mas 'Pixelmator', id: 407963104
+mas 'Telegram', id: 747648890
+mas 'Sip', id: 507257563
