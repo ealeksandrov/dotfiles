@@ -39,9 +39,10 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * Xcode settings
   * https://github.com/tonyarnold/XcodeThemes
   * Show Xcode build time: `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
-* GPG git signing
-  * https://github.com/pstadler/keybase-gpg-github
-  * git config --global user.signingkey 3FCF07FD
+* GPG git signing (https://github.com/pstadler/keybase-gpg-github)
+  * `brew install gpg keybase`
+  * `keybase pgp export | gpg --import`
+  * `keybase pgp export --secret | gpg --allow-secret-key-import --import`
 * [Reveal](https://revealapp.com/download/)
 * [Soulver](http://acqualia.com/soulver/)
 * [Cd To](https://github.com/ealeksandrov/cdto)
