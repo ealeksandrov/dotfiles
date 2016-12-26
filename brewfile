@@ -1,5 +1,7 @@
 tap 'caskroom/cask'
 tap 'homebrew/versions'
+tap 'homebrew/dupes'
+tap 'homebrew/php'
 
 # Install GNU core utilities (those that come with macOS are outdated).
 brew 'coreutils'
@@ -34,6 +36,7 @@ brew 'imagemagick', args: ['with-webp']
 brew 'lua'
 brew 'lynx'
 brew 'mas'
+brew 'mitmproxy'
 brew 'p7zip'
 brew 'pigz'
 brew 'pv'
@@ -70,6 +73,7 @@ cask 'kaleidoscope'
 cask 'keepingyouawake'
 cask 'mac2imgur'
 cask 'opensim'
+cask 'paw'
 cask 'spectacle'
 cask 'steam'
 cask 'textmate'
@@ -90,3 +94,5 @@ mas 'Reeder', id: 880001334
 mas 'Pixelmator', id: 407963104
 mas 'Telegram', id: 747648890
 mas 'Sip', id: 507257563
+mas 'Tweetbot', id: 557168941
+mas 'Spark', id: 1176895641
