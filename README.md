@@ -20,6 +20,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * Safari extensions
   * [AdBlock Plus](https://adblockplus.org/safari)
   * [NoMoreItunes](http://nomoreitunes.einserver.de)
+  * [BackTrack](http://sidetree.com/extensions.html#BackTrack)
 * Install Xcode
   * `xcode-select --install`
 * clone dotfiles
