@@ -119,10 +119,6 @@
   changed = green
   untracked = cyan
 
-[commit]
-  # https://help.github.com/articles/signing-commits-using-gpg/
-  gpgsign = true
-
 [difftool "Kaleidoscope"]
   cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [diff]
