@@ -28,6 +28,7 @@ brew 'homebrew/php/php56', args: ['with-gmp']
 brew 'ack'
 brew 'git'
 brew 'git-lfs'
+brew 'gpg'
 brew 'httpie'
 brew 'imagemagick', args: ['with-webp']
 brew 'lua'
@@ -37,6 +38,7 @@ brew 'mitmproxy'
 brew 'p7zip'
 brew 'pigz'
 brew 'pv'
+brew 'rbenv'
 brew 'rename'
 brew 'speedtest-cli'
 brew 'ssh-copy-id'
@@ -65,6 +67,7 @@ cask 'itsycal'
 cask 'imageoptim'
 cask 'kaleidoscope'
 cask 'keepingyouawake'
+cask 'keybase'
 cask 'mac2imgur'
 cask 'opensim'
 cask 'paw'
@@ -80,7 +83,6 @@ mas 'Xcode', id: 497799835
 mas 'The Unarchiver', id: 425424353
 mas 'Twitter', id: 409789998
 mas '1Password', id: 443987910
-mas 'SomaFM', id: 449155338
 mas 'Slack', id: 803453959
 mas 'Wunderlist', id: 410628904
 mas 'Alternote', id: 974971992
