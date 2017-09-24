@@ -18,6 +18,8 @@ export MANPAGER="/bin/bash -c '$_MANPAGER'"
 
 export ENV_NAME=$(uname -s|tr 'A-Z' 'a-z')
 
+eval "$(rbenv init -)"
+
 #
 # Terminal
 # 

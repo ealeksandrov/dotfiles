@@ -27,6 +27,11 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * `./.macos`
 * [Install Homebrew](http://brew.sh)
 * `brew bundle`
+* ruby
+  * `rbenv install -l`
+  * `rbenv install 2.4.2`
+  * `rbenv global 2.4.2`
+  * `gem install bundler`
 * Change shell
   * `echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;`
   * `chsh -s /usr/local/bin/bash;`
