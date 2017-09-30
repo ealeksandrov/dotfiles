@@ -36,6 +36,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
   * `echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;`
   * `chsh -s /usr/local/bin/bash;`
 * Settings -> Accessibility -> 3-finger drag
+* https://github.com/adobe-fonts/source-code-pro
 * iTerm settings
   * [Esc+: b][Esc+: f]
   * [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
