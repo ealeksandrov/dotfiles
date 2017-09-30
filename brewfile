@@ -19,9 +19,9 @@ brew 'wget', args: ['with-iri']
 
 # Install more recent versions of some macOS tools.
 brew 'vim', args: ['with-override-system-vi']
-brew grep
-brew openssh
-brew screen
+brew 'grep'
+brew 'openssh'
+brew 'screen'
 brew 'homebrew/php/php56', args: ['with-gmp']
 
 # Install other useful binaries.
@@ -77,6 +77,7 @@ cask 'textmate'
 cask 'transmission-remote-gui'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'wwdc'
 
 # Mac App Store Applications
 mas 'Xcode', id: 497799835
@@ -85,7 +86,7 @@ mas 'Twitter', id: 409789998
 mas '1Password', id: 443987910
 mas 'Slack', id: 803453959
 mas 'Wunderlist', id: 410628904
-mas 'Alternote', id: 974971992
+mas 'Bear', id: 1091189122
 mas 'Reeder', id: 880001334
 mas 'Pixelmator', id: 407963104
 mas 'Telegram', id: 747648890
