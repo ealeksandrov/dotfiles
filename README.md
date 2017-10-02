@@ -18,7 +18,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 ## Clean system install
 
 * Safari extensions
-  * [AdBlock Plus](https://adblockplus.org/safari)
+  * [uBlock Origin](https://github.com/el1t/uBlock-Safari)
   * [NoMoreItunes](http://nomoreitunes.einserver.de)
   * [BackTrack](http://sidetree.com/extensions.html#BackTrack)
 * Install Xcode
