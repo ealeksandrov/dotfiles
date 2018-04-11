@@ -46,6 +46,8 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * GPG git signing (https://github.com/pstadler/keybase-gpg-github)
   * `keybase pgp export | gpg --import`
   * `keybase pgp export --secret | gpg --allow-secret-key-import --import`
+* Alfred workflows
+  * [tldr](https://github.com/cs1707/tldr-alfred)
 * [Reveal](https://revealapp.com/download/)
 * [Soulver](http://acqualia.com/soulver/)
 * [Cd To](https://github.com/ealeksandrov/cdto)
