@@ -48,6 +48,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
   * `keybase pgp export --secret | gpg --allow-secret-key-import --import`
 * Alfred workflows
   * [tldr](https://github.com/cs1707/tldr-alfred)
+  * [github](https://github.com/gharlan/alfred-github-workflow)
 * [Reveal](https://revealapp.com/download/)
 * [Soulver](http://acqualia.com/soulver/)
 * [Cd To](https://github.com/ealeksandrov/cdto)
