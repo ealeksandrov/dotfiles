@@ -50,6 +50,7 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
   * [tldr](https://github.com/cs1707/tldr-alfred)
   * [github](https://github.com/gharlan/alfred-github-workflow)
   * [convert](https://github.com/deanishe/alfred-convert)
+  * [safari-assistant](https://github.com/deanishe/alfred-safari-assistant)
 * [Reveal](https://revealapp.com/download/)
 * [Soulver](http://acqualia.com/soulver/)
 * [Cd To](https://github.com/ealeksandrov/cdto)
