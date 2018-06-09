@@ -58,6 +58,7 @@ cask 'qlvideo'
 
 # macOS Applications
 cask 'alfred'
+cask 'basictex'
 cask 'dropbox'
 cask 'flux'
 cask 'gitup'
