@@ -38,8 +38,8 @@ alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
 * Settings -> Accessibility -> 3-finger drag
 * https://github.com/adobe-fonts/source-code-pro
 * iTerm settings
-  * [Esc+: b][Esc+: f]
-  * [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
+  * load preferences from file
+  * install [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
 * Xcode settings
   * https://github.com/tonyarnold/XcodeThemes
   * Show Xcode build time: `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
