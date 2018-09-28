@@ -26,8 +26,10 @@ brew 'homebrew/php/php56', args: ['with-gmp']
 
 # Install other useful binaries.
 brew 'ack'
+brew 'autojump'
 brew 'git'
 brew 'git-lfs'
+brew 'git-standup'
 brew 'gpg'
 brew 'httpie'
 brew 'imagemagick', args: ['with-webp']
@@ -60,9 +62,9 @@ cask 'qlvideo'
 cask 'alfred'
 cask 'basictex'
 cask 'dropbox'
+cask 'firefox'
 cask 'flux'
 cask 'gitup'
-cask 'google-chrome'
 cask 'handbrake'
 cask 'iina'
 cask 'imageoptim'
@@ -79,13 +81,13 @@ cask 'spectacle'
 cask 'steam'
 cask 'textmate'
 cask 'transmission-remote-gui'
+cask 'turbo-boost-switcher'
 cask 'visual-studio-code'
 cask 'wwdc'
 
 # Mac App Store Applications
 mas 'Xcode', id: 497799835
 mas 'The Unarchiver', id: 425424353
-mas 'Twitter', id: 409789998
 mas '1Password', id: 443987910
 mas 'Slack', id: 803453959
 mas 'Wunderlist', id: 410628904
