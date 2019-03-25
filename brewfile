@@ -1,22 +1,27 @@
 # Install GNU core utilities (those that come with macOS are outdated).
 brew 'coreutils'
+# Be sure to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 
 # Install some other useful utilities like `sponge`.
 brew 'moreutils'
+# Add `$(brew --prefix findutils)/libexec/gnubin` to `$PATH` if you would prefer these be the defaults.
+
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
+# Be sure to add `$(brew --prefix gnu-sed)/libexec/gnubin` to `$PATH`.
 brew 'findutils'
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew 'gnu-sed', args: ['with-default-names']
+brew 'gnu-sed'
 
-# Install Bash 4.
+# Install Bash 5.
 brew 'bash'
 brew 'bash-completion2'
 
 # Install `wget` with IRI support.
-brew 'wget', args: ['with-iri']
+brew 'wget'
 
 # Install more recent versions of some macOS tools.
-brew 'vim', args: ['with-override-system-vi']
+brew 'vim'
+# If you would like to map vi so it opens the brew-installed vim: ln -s /usr/local/bin/vim /usr/local/bin/vi
 brew 'grep'
 brew 'openssh'
 brew 'screen'
@@ -31,7 +36,7 @@ brew 'git-lfs'
 brew 'git-standup'
 brew 'gpg'
 brew 'httpie'
-brew 'imagemagick', args: ['with-webp']
+brew 'imagemagick'
 brew 'lua'
 brew 'lynx'
 brew 'mas'
