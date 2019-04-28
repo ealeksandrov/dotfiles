@@ -92,7 +92,6 @@ cask 'wwdc'
 # Mac App Store Applications
 mas 'Xcode', id: 497799835
 mas 'The Unarchiver', id: 425424353
-mas '1Password', id: 443987910
 mas 'Slack', id: 803453959
 mas 'Wunderlist', id: 410628904
 mas 'Bear', id: 1091189122
@@ -104,3 +103,4 @@ mas 'Tweetbot', id: 557168941
 mas 'Spark', id: 1176895641
 mas 'ToothFairy', id: 1191449274
 mas 'DevCleaner', id: 1388020431
+mas 'Bitwarden', id: 1352778147
