@@ -1,27 +1,27 @@
 # Install GNU core utilities (those that come with macOS are outdated).
-brew 'coreutils'
 # Be sure to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+brew 'coreutils'
 
 # Install some other useful utilities like `sponge`.
 brew 'moreutils'
-# Add `$(brew --prefix findutils)/libexec/gnubin` to `$PATH` if you would prefer these be the defaults.
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
-# Be sure to add `$(brew --prefix gnu-sed)/libexec/gnubin` to `$PATH`.
+# Add `$(brew --prefix findutils)/libexec/gnubin` to `$PATH` if you would prefer these be the defaults.
 brew 'findutils'
+
 # Install GNU `sed`, overwriting the built-in `sed`.
+# Be sure to add `$(brew --prefix gnu-sed)/libexec/gnubin` to `$PATH`.
 brew 'gnu-sed'
 
 # Install Bash 5.
 brew 'bash'
 brew 'bash-completion2'
 
-# Install `wget` with IRI support.
 brew 'wget'
 
 # Install more recent versions of some macOS tools.
-brew 'vim'
 # If you would like to map vi so it opens the brew-installed vim: ln -s /usr/local/bin/vim /usr/local/bin/vi
+brew 'vim'
 brew 'grep'
 brew 'openssh'
 brew 'screen'
@@ -65,7 +65,6 @@ cask 'qlvideo'
 # macOS Applications
 cask 'alfred'
 cask 'basictex'
-cask 'dropbox'
 cask 'firefox'
 cask 'flux'
 cask 'gitup'
@@ -77,9 +76,7 @@ cask 'itsycal'
 cask 'kaleidoscope'
 cask 'keepingyouawake'
 cask 'keybase'
-cask 'mac2imgur'
 cask 'macdown'
-cask 'opensim'
 cask 'paw'
 cask 'spectacle'
 cask 'steam'
@@ -93,7 +90,6 @@ cask 'wwdc'
 mas 'Xcode', id: 497799835
 mas 'The Unarchiver', id: 425424353
 mas 'Slack', id: 803453959
-mas 'Wunderlist', id: 410628904
 mas 'Bear', id: 1091189122
 mas 'Reeder', id: 880001334
 mas 'Pixelmator', id: 407963104
