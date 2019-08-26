@@ -65,6 +65,7 @@ cask 'qlvideo'
 # macOS Applications
 cask 'alfred'
 cask 'basictex'
+cask 'finicky'
 cask 'firefox'
 cask 'flux'
 cask 'gitup'
