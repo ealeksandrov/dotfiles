@@ -92,3 +92,9 @@ function gitio() {
 function tre() {
   tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# get ip of active inerface
+function localip() {
+  local activeIf=$(netstat -rn | grep default | awk '{print $NF}' | head -1)
+  ipconfig getifaddr ${activeIf}
+}
