@@ -19,13 +19,17 @@ git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source 
 * [Install Homebrew](http://brew.sh)
 * `brew bundle`
 * ruby
-  * `rbenv install -l`
-  * `rbenv install 2.4.2`
-  * `rbenv global 2.4.2`
-  * `gem install bundler`
+```
+rbenv install -l
+rbenv install 2.6.3
+rbenv global 2.6.3
+gem install bundler
+```
 * Change shell
-  * `echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;`
-  * `chsh -s /usr/local/bin/bash;`
+```
+echo "$(brew --prefix)/bin/bash" | sudo tee -a /etc/shells;
+chsh -s "$(brew --prefix)/bin/bash";
+```
 * Settings -> Accessibility -> 3-finger drag
 * https://github.com/adobe-fonts/source-code-pro
 * iTerm settings
@@ -42,9 +46,6 @@ git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source 
   * [github](https://github.com/gharlan/alfred-github-workflow)
   * [convert](https://github.com/deanishe/alfred-convert)
   * [safari-assistant](https://github.com/deanishe/alfred-safari-assistant)
-* [Reveal](https://revealapp.com/download/)
-* [Soulver](http://acqualia.com/soulver/)
-* [Cd To](https://github.com/ealeksandrov/cdto)
 
 ## Author
 
