@@ -7,4 +7,3 @@ so ~/.bash/prompt                         #
 so ~/.bash/aliases                        #
 so ~/.bash/functions                      #
 so ~/.bash/path                           #
-so ~/.bash/dotfilesrc                     # git-dotfiles specific stuff

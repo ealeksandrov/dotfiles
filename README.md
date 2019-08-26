@@ -3,16 +3,7 @@
 ## How To Use It
 
 ``` shell
-git clone --bare git://github.com/ealeksandrov/dotfiles.git ~/dotfiles.git
-#setup bash alias
-alias .G="git --git-dir=$HOME/dotfiles.git --work-tree=$HOME/"
-
-# commit original files in orig branch for backup
-# WARNING: backup what's going to be overwritten
-.G status -s -uno   # review changelist
-.G checkout -b original_files
-.G commit -a  -m 'original files'
-.G checkout master
+git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 ## Clean system install
