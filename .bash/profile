@@ -1,31 +1,15 @@
 #!/usr/bin/env bash
 
-export EDITOR="/usr/local/bin/mate -w"
-export LESS="--RAW-CONTROL-CHARS --ignore-case"  # colored, same as -R
-export PAGER='less'
+export EDITOR="$(brew --prefix)/bin/mate -w"
 
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 export TERM=xterm-256color
-export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
-export CLICOLOR=1
+export GREP_COLOR='1;32'
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-# common BSD/GNU
-export _MANPAGER='col -bx | view - -c ":set ls=0 ft=man nomod nolist nonu noma" -c ":nmap q :q<CR>"'
-export MANPAGER="/bin/bash -c '$_MANPAGER'"
-
-export ENV_NAME=$(uname -s|tr 'A-Z' 'a-z')
-
 eval "$(rbenv init -)"
-
-#
-# Terminal
-# 
-stty -ixon # disable XON/XOFF flow control
-           # terminal wont treat ^s as flow control character
-           # and ^s now can be used as shortcut
 
 # Add tab completion for many Bash commands
 if which brew &> /dev/null && [ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then

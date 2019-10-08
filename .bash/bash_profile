@@ -6,4 +6,3 @@ so ~/.bash/profile                        # main configuration
 so ~/.bash/prompt                         # 
 so ~/.bash/aliases                        #
 so ~/.bash/functions                      #
-so ~/.bash/path                           #

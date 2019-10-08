@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
