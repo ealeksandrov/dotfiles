@@ -52,8 +52,6 @@ brew 'tldr'
 brew 'tree'
 brew 'vbindiff'
 brew 'zopfli'
-# Howto video->gif https://gist.github.com/dergachev/4627207
-brew 'gifsicle'
 
 # Quick Look plugins
 cask 'qlimagesize'
