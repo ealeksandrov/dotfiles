@@ -66,6 +66,7 @@ cask 'basictex'
 cask 'finicky'
 cask 'firefox'
 cask 'flux'
+cask 'github'
 cask 'gitup'
 cask 'handbrake'
 cask 'iina'
@@ -74,28 +75,25 @@ cask 'iterm2'
 cask 'itsycal'
 cask 'kaleidoscope'
 cask 'keepingyouawake'
-cask 'keybase'
 cask 'macdown'
-cask 'mounty'
 cask 'netnewswire'
 cask 'openinterminal-lite'
 cask 'paw'
+cask 'proxyman'
 cask 'spectacle'
 cask 'steam'
 cask 'textmate'
-cask 'turbo-boost-switcher'
 cask 'visual-studio-code'
 cask 'wwdc'
+cask 'zoomus'
 
 # Mac App Store Applications
-mas 'Xcode', id: 497799835
 mas 'The Unarchiver', id: 425424353
 mas 'Slack', id: 803453959
 mas 'Bear', id: 1091189122
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Telegram', id: 747648890
 mas 'Tweetbot', id: 557168941
-mas 'ToothFairy', id: 1191449274
 mas 'DevCleaner', id: 1388020431
 mas 'Bitwarden', id: 1352778147
 mas 'WireGuard', id: 1451685025
