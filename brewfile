@@ -54,7 +54,6 @@ brew 'vbindiff'
 brew 'zopfli'
 
 # Quick Look plugins
-cask 'qlimagesize'
 cask 'provisionql'
 cask 'qlmarkdown'
 cask 'qlstephen'

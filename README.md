@@ -14,6 +14,7 @@ git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source 
 * `./.macos`
 * [Install Homebrew](http://brew.sh)
 * `brew bundle`
+  * `xattr -cr ~/Library/QuickLook/*.qlgenerator`
 * Install ruby
 ```sh
 rbenv install -l
