@@ -32,7 +32,7 @@ chsh -s "$(brew --prefix)/bin/bash";
   * load preferences from file
   * install [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
 * Xcode settings
-  * https://github.com/adobe-fonts/source-code-pro
+  * https://github.com/tonsky/FiraCode
   * https://github.com/tonyarnold/XcodeThemes
   * Show Xcode build time: `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
 * GPG import
