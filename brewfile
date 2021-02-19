@@ -84,7 +84,7 @@ cask 'steam'
 cask 'textmate'
 cask 'visual-studio-code'
 cask 'wwdc'
-cask 'zoomus'
+cask 'zoom'
 
 # Mac App Store Applications
 mas 'The Unarchiver', id: 425424353
