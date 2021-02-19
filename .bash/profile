@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+eval $(/opt/homebrew/bin/brew shellenv)
+
 export EDITOR="$(brew --prefix)/bin/mate -w"
 
 export LC_CTYPE=en_US.UTF-8
