@@ -11,7 +11,9 @@ module.exports = {
         "*.automattic.com/*",
         "*.a8c.com/*",
         "a8c.slack.com/*",
-        /woocommerce/
+        "*.zendesk.com/*",
+        /woocommerce/,
+        /wordpress-mobile/
     ],
     browser: "Firefox"
   }]
