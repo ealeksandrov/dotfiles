@@ -48,6 +48,7 @@ brew 'tldr'
 brew 'tree'
 brew 'vbindiff'
 brew 'zopfli'
+brew 'zoxide'
 
 # Quick Look plugins
 cask 'provisionql'
