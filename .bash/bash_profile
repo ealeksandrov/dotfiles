@@ -1,8 +1,0 @@
-# main entry point for dotfiles
-
-so() { [ -s $1 ] && source $1; }
-
-so ~/.bash/profile                        # main configuration
-so ~/.bash/prompt                         # 
-so ~/.bash/aliases                        #
-so ~/.bash/functions                      #

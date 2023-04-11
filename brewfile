@@ -13,10 +13,6 @@ brew 'findutils'
 # Be sure to add `$(brew --prefix gnu-sed)/libexec/gnubin` to `$PATH`.
 brew 'gnu-sed'
 
-# Install Bash 5.
-brew 'bash'
-brew 'bash-completion2'
-
 brew 'wget'
 
 # Install more recent versions of some macOS tools.

@@ -22,11 +22,6 @@ rbenv install 2.6.4
 rbenv global 2.6.4
 gem install bundler
 ```
-* Change shell
-```sh
-echo "$(brew --prefix)/bin/bash" | sudo tee -a /etc/shells;
-chsh -s "$(brew --prefix)/bin/bash";
-```
 * Settings -> Accessibility -> 3-finger drag
 * iTerm settings
   * load preferences from file
