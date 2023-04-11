@@ -13,7 +13,7 @@ git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source 
 * Clone dotfiles
 * `./.macos`
 * [Install Homebrew](http://brew.sh)
-* `brew bundle`
+  * `brew bundle`
   * `xattr -cr ~/Library/QuickLook/*.qlgenerator`
 * Install ruby
 ```sh
@@ -22,6 +22,9 @@ rbenv install 2.6.4
 rbenv global 2.6.4
 gem install bundler
 ```
+* [Install oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+  * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 * Settings -> Accessibility -> 3-finger drag
 * iTerm settings
   * load preferences from file

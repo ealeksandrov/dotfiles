@@ -7,6 +7,12 @@ eval "$(rbenv init -)"
 # gpg
 export GPG_TTY=$TTY
 
+# oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(aliases gh git httpie xcode zsh-autosuggestions zsh-syntax-highlighting)
+source $ZSH/oh-my-zsh.sh
+
 # Shortcuts
 alias dev="cd ~/Documents/dev"
 alias dl="cd ~/Downloads"
