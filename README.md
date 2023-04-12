@@ -27,9 +27,6 @@ gem install bundler
   * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 * Settings -> Accessibility -> 3-finger drag
-* iTerm settings
-  * load preferences from file
-  * install [peppermint theme](https://github.com/dotzero/iTerm-2-Peppermint)
 * Xcode settings
   * https://github.com/tonsky/FiraCode
   * https://github.com/tonyarnold/XcodeThemes
