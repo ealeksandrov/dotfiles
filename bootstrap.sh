@@ -1,30 +1,22 @@
 #!/usr/bin/env bash
 
-cd "$(dirname "${BASH_SOURCE}")";
+echo "symlinking dotfiles..."
+ln -sF $(pwd)/configs/zshrc ~/.zshrc
+ln -sF $(pwd)/configs/alacritty.yml ~/.alacritty.yml
 
-git pull origin master;
+ln -sF $(pwd)/configs/gitattributes ~/.gitattributes
+ln -sF $(pwd)/configs/gitconfig ~/.gitconfig
+ln -sF $(pwd)/configs/gitignore-global ~/.gitignore-global
 
-function doIt() {
-	rsync --exclude ".git/" \
-		--exclude ".DS_Store" \
-		--exclude "iterm2/" \
-		--exclude "bootstrap.sh" \
-		--exclude ".macos" \
-		--exclude "brewfile" \
-		--exclude "bootstrap.sh" \
-		--exclude "README.md" \
-		--exclude "LICENSE" \
-		-avh --no-perms . ~;
-	source ~/.bash_profile;
-}
+ln -sF $(pwd)/configs/finicky.js ~/.finicky.js
+ln -sF $(pwd)/configs/gemrc ~/.gemrc
+ln -sF $(pwd)/configs/lldbinit ~/.lldbinit
 
-if [ "$1" == "--force" -o "$1" == "-f" ]; then
-	doIt;
-else
-	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
-	echo "";
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
-		doIt;
-	fi;
-fi;
-unset doIt;
+mkdir ~/.vim
+ln -sF $(pwd)/configs/vimrc ~/.vim/vimrc
+
+touch ~/.hushlogin
+
+exec zsh
+
+echo "✓ done"
