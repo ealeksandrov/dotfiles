@@ -11,7 +11,7 @@ git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source 
 * Install Xcode
   * http://developer.apple.com/download/more/
 * Clone dotfiles
-* `./.macos`
+* `source macos.sh`
 * [Install Homebrew](http://brew.sh)
   * `brew bundle`
   * `xattr -cr ~/Library/QuickLook/*.qlgenerator`
