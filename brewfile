@@ -1,53 +1,25 @@
-# Install GNU core utilities (those that come with macOS are outdated).
-# Be sure to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-brew 'coreutils'
-
-# Install some other useful utilities like `sponge`.
-brew 'moreutils'
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
-# Add `$(brew --prefix findutils)/libexec/gnubin` to `$PATH` if you would prefer these be the defaults.
-brew 'findutils'
-
-# Install GNU `sed`, overwriting the built-in `sed`.
-# Be sure to add `$(brew --prefix gnu-sed)/libexec/gnubin` to `$PATH`.
-brew 'gnu-sed'
-
-brew 'wget'
-
-# Install more recent versions of some macOS tools.
-# If you would like to map vi so it opens the brew-installed vim: ln -s /usr/local/bin/vim /usr/local/bin/vi
-brew 'vim'
-brew 'grep'
-brew 'openssh'
-brew 'screen'
-brew 'php'
-brew 'gmp'
-
-# Install other useful binaries.
-brew 'ack'
-brew 'autojump'
+brew 'bat'
+brew 'exa'
+brew 'fd'
+brew 'fzf'
+brew 'gh'
 brew 'git'
 brew 'git-lfs'
-brew 'git-standup'
 brew 'gpg'
 brew 'httpie'
 brew 'imagemagick'
 brew 'lua'
-brew 'lynx'
 brew 'mas'
 brew 'mitmproxy'
-brew 'p7zip'
-brew 'pigz'
-brew 'pv'
+brew 'ncdu'
+brew 'openssh'
 brew 'rbenv'
-brew 'rename'
+brew 'ripgrep'
 brew 'speedtest-cli'
 brew 'ssh-copy-id'
 brew 'tldr'
-brew 'tree'
-brew 'vbindiff'
-brew 'zopfli'
+brew 'vim'
+brew 'zsh'
 brew 'zoxide'
 
 # Quick Look plugins
@@ -57,6 +29,7 @@ cask 'qlstephen'
 cask 'qlvideo'
 
 # macOS Applications
+cask 'aerial'
 cask 'alacritty'
 cask 'alfred'
 cask 'basictex'
@@ -71,6 +44,7 @@ cask 'imageoptim'
 cask 'itsycal'
 cask 'kaleidoscope'
 cask 'keepingyouawake'
+cask 'keka'
 cask 'little-snitch'
 cask 'macdown'
 cask 'monitorcontrol'
@@ -79,24 +53,20 @@ cask 'openinterminal-lite'
 cask 'paw'
 cask 'proxyman'
 cask 'rectangle'
+cask 'shottr'
 cask 'steam'
-cask 'textmate'
 cask 'visual-studio-code'
 cask 'wwdc'
 cask 'xcodes'
 cask 'zoom'
 
 # Mac App Store Applications
-mas 'The Unarchiver', id: 425424353
 mas 'Slack', id: 803453959
-mas 'Bear', id: 1091189122
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Telegram', id: 747648890
-mas 'Tweetbot', id: 557168941
 mas 'DevCleaner', id: 1388020431
 mas 'Bitwarden', id: 1352778147
 mas 'WireGuard', id: 1451685025
 mas 'Things', id: 904280696
-mas 'Simplenote', id: 692867256
 mas 'PDF Viewer', id: 1120099014
 mas 'SomaFM miniplayer', id: 1303140142
