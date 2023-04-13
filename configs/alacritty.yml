@@ -1,5 +1,12 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
+shell:
+  program: zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
+
 window:
   dynamic_padding: true
   padding:
@@ -9,3 +16,30 @@ window:
 cursor:
   style:
     shape: Beam
+
+# tmux bindings
+key_bindings:
+  - { key: N, mods: Command, chars: "\x02\x63" }        # new window
+  - { key: W, mods: Command, chars: "\x02\x78" }        # close pane
+  - { key: T, mods: Command, chars: "\x02\x2d" }        # split pane vertically
+  - { key: T, mods: Command|Shift, chars: "\x02\x5f" }  # split pane horizontally
+  # switch to window N
+  - { key: Key1, mods: Command, chars: "\x02\x31" }
+  - { key: Key2, mods: Command, chars: "\x02\x32" }
+  - { key: Key3, mods: Command, chars: "\x02\x33" }
+  - { key: Key4, mods: Command, chars: "\x02\x34" }
+  - { key: Key5, mods: Command, chars: "\x02\x35" }
+  - { key: Key6, mods: Command, chars: "\x02\x36" }
+  - { key: Key7, mods: Command, chars: "\x02\x37" }
+  - { key: Key8, mods: Command, chars: "\x02\x38" }
+  - { key: Key9, mods: Command, chars: "\x02\x39" }
+  # pane navigation
+  - { key: Left, mods: Command, chars: "\x02\x68" }
+  - { key: Down, mods: Command, chars: "\x02\x6a" }
+  - { key: Up, mods: Command, chars: "\x02\x6b" }
+  - { key: Right, mods: Command,chars: "\x02\x6c" }
+  # pane resizing
+  - { key: H, mods: Command, chars: "\x02\x48" }
+  - { key: J, mods: Command, chars: "\x02\x4a" }
+  - { key: K, mods: Command, chars: "\x02\x4b" }
+  - { key: L, mods: Command, chars: "\x02\x4c" }
