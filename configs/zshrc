@@ -25,6 +25,10 @@ alias dev="cd ~/Documents/dev"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
+alias cat="bat --theme=TwoDark"
+alias ls="exa --git --color=always --group-directories-first"
+alias tree="exa --tree --level=2"
+
 # Key bindings
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
