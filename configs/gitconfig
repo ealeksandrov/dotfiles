@@ -178,6 +178,3 @@
   pushInsteadOf = "https://gist.github.com/"
   pushInsteadOf = "http://gist.github.com/"
   pushInsteadOf = "gist:"
-
-[url "git@heroku.com:"]
-  insteadOf = "heroku:"
