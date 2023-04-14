@@ -161,6 +161,12 @@
   name  = Evgeny Aleksandrov
   email = evgeny@aleksandrov.ws
 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
 # URL shorthands
 
 [url "http://github.com/"]
