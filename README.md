@@ -1,10 +1,13 @@
 #	dotfiles
 
 ``` shell
-git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles
+source macos.sh
+source bootstrap.sh
 ```
 
-* `source macos.sh`
+### Manual install
+
 * [Install Homebrew](http://brew.sh)
   * `brew bundle`
   * `xattr -cr ~/Library/QuickLook/*.qlgenerator`
