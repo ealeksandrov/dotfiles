@@ -9,11 +9,7 @@ git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles && source 
   * `brew bundle`
   * `xattr -cr ~/Library/QuickLook/*.qlgenerator`
 * Install ruby
-```sh
-rbenv install $(rbenv install -l | grep -v - | head -1)
-rbenv global $(rbenv install -l | grep -v - | head -1)
-gem install bundler
-```
+  * `ruby-install ruby 2.7`
 * [Install oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
   * [powerlevel10k](https://github.com/romkatv/powerlevel10k)
   * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)

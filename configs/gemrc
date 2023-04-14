@@ -1,5 +1,5 @@
 --- 
-gem: --no-ri --no-rdoc
+gem: --no-document
 :sources: 
 - http://rubygems.org
 # specify other sources in your Gemfile
