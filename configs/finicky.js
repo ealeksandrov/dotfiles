@@ -5,15 +5,8 @@ module.exports = {
   },
   handlers: [{
     match: [
-        "wp.me/*",
-        "wordpress.com/*",
-        "*.wordpress.com/*",
-        "*.automattic.com/*",
-        "*.a8c.com/*",
-        "a8c.slack.com/*",
-        "*.zendesk.com/*",
-        /woocommerce/,
-        /wordpress-mobile/
+        //
+        "slack.com/*"
     ],
     browser: "Firefox"
   }]
