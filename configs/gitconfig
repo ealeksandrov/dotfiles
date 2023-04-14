@@ -149,6 +149,8 @@
   # Make `git push` push relevant annotated tags when pushing branches out.
   followTags = true
 
+  autoSetupRemote = true
+
 [fetch]
   prune = true
 
