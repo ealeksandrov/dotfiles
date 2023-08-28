@@ -436,4 +436,4 @@ defaults write org.m0k.transmission WarningLegal -bool false
 
 ###############################################################################
 
-echo "Done. Note that some of these changes require a logout/restart to take effect."
+echo "✓ macos done. Note that some of these changes require a logout/restart to take effect."

@@ -2,12 +2,12 @@
 
 ``` shell
 git clone https://github.com/ealeksandrov/dotfiles.git && cd dotfiles
-source macos.sh
-source bootstrap.sh
+make setup
 ```
 
 ### Manual install
 
+* `make macos`
 * [Install Homebrew](http://brew.sh)
   * For multi-user install add alias: `alias brew='sudo -Hu firstuser brew'`
   * `brew bundle`
@@ -18,6 +18,7 @@ source bootstrap.sh
   * [powerlevel10k](https://github.com/romkatv/powerlevel10k)
   * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+* `make symlink`
 * Install Xcode
   * [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
   * settings
