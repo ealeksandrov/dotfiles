@@ -9,6 +9,7 @@ source bootstrap.sh
 ### Manual install
 
 * [Install Homebrew](http://brew.sh)
+  * For multi-user install add alias: `alias brew='sudo -Hu firstuser brew'`
   * `brew bundle`
   * `xattr -cr ~/Library/QuickLook/*.qlgenerator`
 * Install ruby
