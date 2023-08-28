@@ -13,7 +13,8 @@ fi
 # Homebrew
 if ! which brew &> /dev/null; then
     echo "installing Homebrew..."
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    eval "$(/opt/homebrew/bin/brew shellenv)"  
 fi
 brew bundle
 xattr -cr ~/Library/QuickLook/*.qlgenerator
