@@ -2,7 +2,7 @@
 echo "symlinking dotfiles..."
 
 ln -sF $(pwd)/configs/zshrc ~/.zshrc
-ln -sF $(pwd)/configs/alacritty.yml ~/.alacritty.yml
+ln -sF $(pwd)/configs/alacritty.toml ~/.alacritty.toml
 ln -sF $(pwd)/configs/tmux.conf ~/.tmux.conf
 
 ln -sF $(pwd)/configs/gitattributes ~/.gitattributes
