@@ -21,7 +21,7 @@ xattr -cr ~/Library/QuickLook/*.qlgenerator
 
 # Ruby
 brew install chruby ruby-install
-ruby-install ruby 2.7
+ruby-install ruby 3.2.3
 
 # set zsh as the user login shell
 brew install zsh
