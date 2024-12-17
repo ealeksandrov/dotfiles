@@ -1,5 +1,4 @@
 brew 'bat'
-brew 'chruby'
 brew 'eza'
 brew 'fd'
 brew 'fzf'

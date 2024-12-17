@@ -10,7 +10,7 @@ setup: \
 macos: # Run macOS setup script.
 	./macos.sh
 
-bootstrap: # Run bootstrap script (installs Homebrew, Ruby, shell plugins).
+bootstrap: # Run bootstrap script (installs Homebrew, shell plugins).
 	./bootstrap.sh
 
 symlink: # Create symlinks for configs.
