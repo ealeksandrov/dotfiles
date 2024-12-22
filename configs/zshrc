@@ -37,6 +37,10 @@ else
 fi
 
 # Shortcuts
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
 alias dev="cd ~/Documents/dev"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
@@ -44,6 +48,24 @@ alias dt="cd ~/Desktop"
 alias cat="bat --theme=TwoDark"
 alias ls="eza --git --color=always --group-directories-first"
 alias tree="eza --tree --level=2"
+
+alias xcdd='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
+alias simulator='open "$(xcode-select -p)/Applications/Simulator.app"'
+
+function xc {
+  local xcode_files
+  xcode_files=(${1:-.}/{*.{xcworkspace,xcodeproj,swiftpm},Package.swift}(N))
+
+  if [[ ${#xcode_files} -eq 0 ]]; then
+    echo "No Xcode files found in ${1:-the current directory}." >&2
+    return 1
+  fi
+
+  local active_path
+  active_path=${"$(xcode-select -p)"%%/Contents/Developer*}
+  echo "Found ${xcode_files[1]}. Opening with ${active_path}"
+  open -a "$active_path" "${xcode_files[1]}"
+}
 
 # Key bindings
 bindkey "^[[1;3C" forward-word
