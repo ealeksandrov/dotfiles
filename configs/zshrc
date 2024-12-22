@@ -84,6 +84,8 @@ setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
 
+# Completion styling
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 # Activate plugins
 source ${plugins_dir}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ${plugins_dir}/zsh-autosuggestions/zsh-autosuggestions.zsh
