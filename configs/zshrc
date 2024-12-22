@@ -1,5 +1,8 @@
 # Download plugins
 plugins_dir="${HOME}/.zsh-plugins"
+if [[ ! -e ${plugins_dir}/fzf-tab ]]; then
+  git clone --depth=1 https://github.com/Aloxaf/fzf-tab.git ${plugins_dir}/fzf-tab
+fi
 if [[ ! -e ${plugins_dir}/zsh-syntax-highlighting ]]; then
   git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${plugins_dir}/zsh-syntax-highlighting
 fi
@@ -87,12 +90,16 @@ setopt hist_find_no_dups
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} 'di=01;34'
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always --group-directories-first $realpath'
 
 # Activate plugins
+source ${plugins_dir}/fzf-tab/fzf-tab.plugin.zsh
 source ${plugins_dir}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ${plugins_dir}/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ${plugins_dir}/powerlevel10k/powerlevel10k.zsh-theme
 eval "$(zoxide init zsh)"
+source <(fzf --zsh)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
