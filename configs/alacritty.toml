@@ -1,9 +1,0 @@
-[cursor.style]
-shape = "Beam"
-
-[window]
-dynamic_padding = true
-
-[window.padding]
-x = 3
-y = 3

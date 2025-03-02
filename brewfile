@@ -31,12 +31,12 @@ cask 'qlvideo'
 
 # macOS Applications
 cask 'aerial'
-cask 'alacritty'
 cask 'alfred'
 cask 'basictex'
 cask 'finicky'
 cask 'firefox'
 cask 'flux'
+cask 'ghostty'
 cask 'github'
 cask 'gitup'
 cask 'handbrake'
