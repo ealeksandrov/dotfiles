@@ -17,7 +17,6 @@ make setup
   * [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
   * settings
     * https://github.com/tonsky/FiraCode
-      * `brew tap homebrew/cask-fonts`
       * `brew install --cask font-fira-code`
     * https://github.com/tonyarnold/XcodeThemes
     * Show Xcode build time: `defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
