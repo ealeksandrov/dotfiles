@@ -73,6 +73,8 @@ function xc {
 # Key bindings
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
 
 # History
 HISTSIZE=5000
