@@ -13,6 +13,7 @@ make setup
   * `brew bundle`
   * `xattr -cr ~/Library/QuickLook/*.qlgenerator`
 * `make symlink`
+* `defaults write wang.jianing.app.OpenInTerminal-Lite LiteDefaultTerminal Ghostty`
 * Install Xcode
   * [Xcodes.app](https://github.com/RobotsAndPencils/XcodesApp)
   * settings
