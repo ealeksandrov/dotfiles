@@ -8,9 +8,10 @@ brew 'git-lfs'
 brew 'gpg'
 brew 'httpie'
 brew 'imagemagick'
-brew 'lua'
+brew 'lazygit'
 brew 'mas'
 brew 'mise'
+brew 'mole'
 brew 'ncdu'
 brew 'openssh'
 brew 'ripgrep'
@@ -31,27 +32,26 @@ cask 'qlvideo'
 
 # macOS Applications
 cask 'aerial'
-cask 'alfred'
 cask 'basictex'
 cask 'finicky'
 cask 'firefox'
-cask 'flux'
 cask 'ghostty'
 cask 'github'
 cask 'gitup'
 cask 'handbrake'
+cask 'handy'
+cask 'helium-browser'
 cask 'iina'
 cask 'imageoptim'
 cask 'itsycal'
 cask 'keepingyouawake'
 cask 'keka'
-cask 'little-snitch'
 cask 'macdown'
 cask 'monitorcontrol'
 cask 'netnewswire'
 cask 'openinterminal-lite'
-cask 'paw'
 cask 'proxyman'
+cask 'raycast'
 cask 'rectangle'
 cask 'shottr'
 cask 'steam'
@@ -67,6 +67,6 @@ mas 'Pixelmator Pro', id: 1289583905
 mas 'DevCleaner', id: 1388020431
 mas 'Bitwarden', id: 1352778147
 mas 'Things', id: 904280696
-mas 'PDF Viewer', id: 1120099014
+mas 'Shadowrocket', id: 932747118
 mas 'SomaFM miniplayer', id: 1303140142
 mas 'CotEditor', id: 1024640650
