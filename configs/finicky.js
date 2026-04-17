@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   defaultBrowser: "Safari",
   options: {
     hideIcon: true
