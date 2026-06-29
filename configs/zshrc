@@ -56,11 +56,31 @@ alias xcdd='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
 alias simulator='open "$(xcode-select -p)/Applications/Simulator.app"'
 
 function xc {
+  local dir=${1:-.}
+  local tuist_manifests
+  tuist_manifests=($dir/{Tuist.swift,Workspace.swift,Project.swift}(N) $dir/Tuist(N/))
+
+  if [[ ${#tuist_manifests} -gt 0 ]]; then
+    echo "Tuist project detected. Running 'tuist generate'..."
+    local output
+    output=$(cd "$dir" && tuist generate 2>&1)
+    local ret=$?
+    echo "$output"
+    if [[ $ret -ne 0 && "$output" == *"tuist install"* ]]; then
+      echo "Outdated dependencies detected. Running 'tuist install'..."
+      (cd "$dir" && tuist install) || return $?
+      echo "Re-running 'tuist generate'..."
+      (cd "$dir" && tuist generate)
+      return $?
+    fi
+    return $ret
+  fi
+
   local xcode_files
-  xcode_files=(${1:-.}/{*.{xcworkspace,xcodeproj,swiftpm},Package.swift}(N))
+  xcode_files=($dir/{*.{xcworkspace,xcodeproj,swiftpm},Package.swift}(N))
 
   if [[ ${#xcode_files} -eq 0 ]]; then
-    echo "No Xcode files found in ${1:-the current directory}." >&2
+    echo "No Xcode files found in ${dir}." >&2
     return 1
   fi
 
