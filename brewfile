@@ -57,7 +57,7 @@ cask 'steam'
 cask 'telegram'
 cask 'visual-studio-code'
 cask 'wwdc'
-cask 'xcodes'
+cask 'xcodes-app'
 cask 'zoom'
 
 # Mac App Store Applications
